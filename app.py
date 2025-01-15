@@ -7,7 +7,7 @@ os.environ["TK_LIBRARY"] = "C:/Users/ashwita/AppData/Local/Programs/Python/Pytho
 
 # Function to fetch weather data from OpenWeatherMap API
 def get_weather(city):
-    API_KEY = "b0ec5cf67cc1b62e878c3a4a6f89daba"  # Replace with your OpenWeatherMap API key
+    API_KEY = "YOUR_API_KEY"  # Replace with your OpenWeatherMap API key
     BASE_URL = "http://api.openweathermap.org/data/2.5/weather"
 
     try:
